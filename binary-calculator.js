@@ -5,5 +5,4 @@ while (now_num != 1) {
     result = (now_num % 2) + result;
     now_num = parseInt(now_num / 2);
 }
-result = "1" + result;
-alert(num + "을 이진수로 바꾼 수는 " + result + "입니다");
+alert(num + "을 이진수로 바꾼 수는 1" + result + "입니다");
